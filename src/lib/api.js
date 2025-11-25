@@ -1,5 +1,5 @@
 // src/lib/api.js
-const API = "https://eqtestict.site/api";
+const API = process.env.NEXT_PUBLIC_API;
 // const API = "http://localhost:8000/api";
 
 
