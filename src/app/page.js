@@ -171,15 +171,7 @@ export default function Home() {
   >
     +95 097 6610 9458
   </a>
-  
-  <br />
 
-  <a
-    href="viber://chat?number=+66845875734"
-    className="font-semibold underline text-purple-700"
-  >
-    +66 084 587 5734
-  </a>
 </p>
 
     </div>
