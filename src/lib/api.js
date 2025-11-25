@@ -1,6 +1,6 @@
 // src/lib/api.js
-// const API = "https://eqtestict.site/api";
-const API = "http://localhost:8000/api";
+const API = "https://eqtestict.site/api";
+// const API = "http://localhost:8000/api";
 
 
 // ------------------------
