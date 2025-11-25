@@ -1,0 +1,16 @@
+{
+  "name": "Waaneiza EQ Test",
+  "short_name": "EQ Test",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Take the Waaneiza EQ Test anonymously.",
+  "icons": [
+    {
+      "src": "/pwa.png",
+      "sizes": "48x48 64x64 96x96 128x128 256x256 512x512",
+      "type": "image/png"
+    }
+  ]
+}
