@@ -237,13 +237,22 @@ async function handleStart(e) {
           required
         />
 
-        <input
-          className="w-full border rounded p-2 mb-2"
-          placeholder={lang === "en" ? "Rank" : "ရာထူး"}
-          value={anonRank}
-          onChange={(e) => setAnonRank(e.target.value)}
-          required
-        />
+        <select
+        className="w-full border rounded p-2 mb-2"
+        value={anonRank}
+        onChange={(e) => setAnonRank(e.target.value)}
+        required
+        >
+        <option value="">
+            {lang === "en" ? "Select Rank" : "ရာထူး ရွေးရန်"}
+        </option>
+
+        <option value="AI">AI</option>
+        <option value="JI">JI</option>
+        <option value="SI">SI</option>
+        <option value="JO">JO</option>
+        </select>
+
 
         <button
           className="w-full bg-black text-white rounded p-2"
