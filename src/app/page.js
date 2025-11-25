@@ -158,14 +158,28 @@ export default function Home() {
       </section>
 
       {/* FOOTNOTE */}
-      <p className="text-xs text-gray-500">
-        {lang === "en"
-          ? "Having trouble? Phone 09899832547 or Mail to us"
-          : "အခက်အခဲရှိပါက 09899832547 သို့ ဆက်သွယ်ပါ။"}{" "}
-        <a href="mailto:ict@waaneiza.com" className="underline">
-          ict@waaneiza.com
-        </a>
-      </p>
+<p className="text-lg text-gray-700 leading-relaxed">
+  {lang === "en"
+    ? "Having trouble? Contact us on Viber:"
+    : "အခက်အခဲရှိပါက Viber ဖြင့် ဆက်သွယ်နိုင်ပါသည်:"}{" "}
+  
+  <a
+    href="viber://chat?number=+959766109458"
+    className="font-semibold underline text-purple-700"
+  >
+    +95 097 6610 9458
+  </a>
+  
+  {" & "}
+
+  <a
+    href="viber://chat?number=+66845875734"
+    className="font-semibold underline text-purple-700"
+  >
+    +66 084 587 5734
+  </a>
+</p>
+
     </div>
   );
 }
