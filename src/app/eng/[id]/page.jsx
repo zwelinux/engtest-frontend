@@ -244,7 +244,7 @@ async function handleStart(e) {
         required
         >
         <option value="">
-            {lang === "en" ? "Select Rank" : "ရာထူး ရွေးရန်"}
+            {lang === "en" ? "Select Rank" : "ရာထူး ရွေးရန်"} 
         </option>
 
         <option value="AI">AI</option>
@@ -253,6 +253,7 @@ async function handleStart(e) {
         <option value="JO">JO</option>
         </select>
 
+{/* Cheeers Mate */}
 
         <button
           className="w-full bg-black text-white rounded p-2"
