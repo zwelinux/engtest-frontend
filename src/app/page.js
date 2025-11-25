@@ -163,6 +163,8 @@ export default function Home() {
     ? "Having trouble? Contact us on Viber:"
     : "အခက်အခဲရှိပါက Viber ဖြင့် ဆက်သွယ်နိုင်ပါသည်:"}{" "}
   
+  <br />
+  
   <a
     href="viber://chat?number=+959766109458"
     className="font-semibold underline text-purple-700"
@@ -170,7 +172,7 @@ export default function Home() {
     +95 097 6610 9458
   </a>
   
-  {" & "}
+  <br />
 
   <a
     href="viber://chat?number=+66845875734"
