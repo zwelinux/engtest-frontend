@@ -70,12 +70,12 @@ export default function Home() {
             desc_en: "Fill in your Name, Email & Rank correctly.",
             desc_my: "အမည်၊ email နှင့် ရာထူးကို မှန်ကန်စွာ ဖြည့်ပါ။",
           },
-          {
-            title_en: "Step 3",
-            title_my: "လုပ်ဆောင်ရန် ၃",
-            desc_en: "Select Myanmar flag to switch language.",
-            desc_my: "မြန်မာလို ဖြေလိုပါက အလံလေးကိုနှိပ်ပါ။",
-          },
+          // {
+          //   title_en: "Step 3",
+          //   title_my: "လုပ်ဆောင်ရန် ၃",
+          //   desc_en: "Select Myanmar flag to switch language.",
+          //   desc_my: "မြန်မာလို ဖြေလိုပါက အလံလေးကိုနှိပ်ပါ။",
+          // },
         ].map((f) => (
           <div
             key={f.title_en}

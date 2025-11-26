@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
               </Link>
 
               {/* Language Switcher */}
-              <LangSwitcher />
+              {/* <LangSwitcher /> */}
             </nav>
           </header>
 
